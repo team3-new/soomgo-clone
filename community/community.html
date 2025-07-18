@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link data-vue-meta="1" rel="shortcut icon" href="https://assets.cdn.soomgo.com/icons/logo/favicon_soomgo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <link rel="stylesheet" href="community.css">
+    <title>생활 속 문제나 궁금한 서비스 비용, 다양한 경험을 이야기 해 보세요. - 숨고, 숨은고수</title>
+</head>
+<body>
+    <div id="app">
+        <div id="top"></div>
+        <header id="app-header" class="global-header">
+            <div class="global-navigation-bar">
+                <section>
+                    <div class="desktop-header">
+                        <div class="left-section">
+                            <div class="logo">
+                                <a href="https://soomgo.com/community/soomgo-life/all?from=web_gnb">
+                                    <img src="https://assets.cdn.soomgo.com/icons/logo/header_logo.svg">
+                                </a>
+                            </div>
+                            <nav>
+                                <ul class="nav-list">
+                                    <li class="nav-item left-section-item">
+                                        <a href="#;" class="gnb-link">
+                                            <span class="prisma-typography body16:semibold primary">견적요청</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item left-section-item">
+                                        <a href="#;" class="gnb-link">
+                                            <span class="prisma-typography body16:semibold primary">고수찾기</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item left-section-item">
+                                        <a href="#;" class="gnb-link">
+                                            <span class="prisma-typography body16:semibold primary">마켓</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item left-section-item">
+                                        <a href="#;" class="gnb-link">
+                                            <span class="prisma-typography body16:semibold primary">커뮤니티</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="center-section">
+                            <div class="search-community inlined">
+                                <form action="">
+                                    <div class="input-group inlined">
+                                        <div class="input-group-prepend">
+                                            <img src="data:image/svg+xml,%3csvg%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform='translate(1%201)'%20stroke='%23C5C5C5'%20stroke-width='1.5'%20fill='none'%20fill-rule='evenodd'%3e%3ccircle%20cx='6.611'%20cy='6.611'%20r='5.861'/%3e%3cpath%20stroke-linecap='round'%20stroke-linejoin='round'%20d='m15.25%2015.25-4.243-4.243'/%3e%3c/g%3e%3c/svg%3e" class="search">
+                                        </div>
+                                        <input type="text" placeholder="키워드와 #태그 검색" class="search-input form-control">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="right-section">
+                            <nav>
+                                <ul class="nav-list">
+                                    <li class="nav-item right-section-item">
+                                        <a href="#;" class="gnb-link">
+                                            <span class="prisma-typography body14:medium primary">로그인 / 회원가입</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <button class="btn pro-signup-btn right-section-item btn-primary">
+                                <a href="#;">고수가입</a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <div id="app-body">
+            <div class="community-container container">
+                <div class="soomgo-life-container">
+                    <section class="community">
+                        <div class="observer-container">
+                            <section class="community-header">
+                                <h1 class="community-title">커뮤니티</h1>
+                                <div class="write-button-desktop">
+                                    <div class="dropdown b-dropdown btn-group">
+                                        <button class="btn dropdown-toggle btn-primary">
+                                            글쓰기
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>
+                            <ul class="category">
+                                <li class="prisma-typography body14:semibold lg:headline16 primary selected">
+                                    <a href="#;" class="link-text router-link-active">
+                                        숨고생활
+                                    </a>
+                                </li>
+                                <li class="prisma-typography body14:regular lg:body16:regular quaternary">
+                                    <a href="#;" class="link-text">
+                                        고수센터
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="community-layout">
+                            <div class="soomgo-life-topic-layout">
+                                <section class="topic-list-menu">
+                                    <ul>
+                                        <li class="selected">
+                                            <a href="#;" class="topic-link-item">전체</a>
+                                        </li>
+                                        <li>
+                                            <a href="#;" class="topic-link-item">고수에게묻다</a>
+                                        </li>
+                                        <li>
+                                            <a href="#;" class="topic-link-item">고수노하우</a>
+                                        </li>
+                                        <li>
+                                            <a href="#;" class="topic-link-item">함께해요</a>
+                                        </li>
+                                        <li>
+                                            <a href="#;" class="topic-link-item">고수소식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#;" class="topic-link-item">숨고이야기</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="community-content-layout">
+                                <div class="community-notice-slick slick-slider slick-initialized">
+                                    <div class="slick-list">
+                                        <div class="slick-track">
+                                            <div class="slick-slide">
+                                                <div class="community-notice-wrapper">
+                                                    <a href="#;">
+                                                        <span class="notice-title">공지</span>
+                                                        <span class="notice-text">숨고생활 가이드라인 🤝</span>
+                                                        <span class="sg-icon-v1">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3 11.9209C17.299 11.722 17.2191 11.5316 17.0777 11.3916L9.27772 3.66738C8.9834 3.37592 8.50854 3.37824 8.21708 3.67256C7.92562 3.96688 7.92793 4.44175 8.22225 4.73321L15.4893 11.9297L8.2171 19.2725C7.92563 19.5668 7.92792 20.0417 8.22223 20.3332C8.51654 20.6247 8.9914 20.6224 9.28288 20.3281L17.0829 12.4523C17.2228 12.3109 17.3009 12.1198 17.3 11.9209Z" fill="black"></path>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section class="curation">
+                                    <div class="curation-header">
+                                        <h2 class="prisma-typography headline18 primary">
+                                             지금 가장 뜨거운 숨고픽 🔥 
+                                        </h2>
+                                        <span class="curation-page">1/3</span>
+                                    </div>
+                                    <div class="slick-slider">
+                                        <div class="slick-list">
+                                            <div class="slick-slide">
+                                                <a href="#;">
+                                                    <div class="curation-item">
+                                                        <h3 class="prisma-typography headline16 primary">
+                                                            사진과 감사 메시지를 더해, 리뷰 쓰기 더 쉬워졌어요!
+                                                        </h3>
+                                                        <div class="react-items">
+                                                            <p class="view prisma-typography body12:regular primary">
+                                                                1,624
+                                                            </p>
+                                                            <p class="comment prisma-typography body12:regular primary">
+                                                                0
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="slick-slide">
+                                                <a href="#;">
+                                                    <div class="curation-item">
+                                                        <h3 class="prisma-typography headline16 primary">
+                                                            무더위 걱정 없는 여름 이사의 모든 것
+                                                        </h3>
+                                                        <div class="react-items">
+                                                            <p class="view prisma-typography body12:regular primary">
+                                                                220
+                                                            </p>
+                                                            <p class="comment prisma-typography body12:regular primary">
+                                                                1
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="community-review-section">
+                                    <div class="header">
+                                        <p>만족도 높은</p>
+                                        <h2>고객님들의 최신 사진 리뷰</h2>
+                                    </div>
+                                    <div class="slick-slider">
+                                        <div class="slick-list">
+                                            <div class="slick-track">
+                                                <div class="slick-slide">
+                                                    <article class="community-review-card">
+                                                        <a href="#;" class="service-item">
+                                                            <img class="thumbnail" src="https://static.cdn.soomgo.com/upload/review/c92b7351-3e37-4df6-9e8f-e0b22f021538.jpg?webp=1">
+                                                            <div class="contents-container">
+                                                                <h3>이사/입주 청소업체</h3>
+                                                                <p>상담도 답변 빠르고 친절했습니다. 청소하시는분은 시간 잘 지키시고 꼼꼼하게 깨끗하게 해주셔서 만족합니다.</p>
+                                                                <div class="contents-footer">
+                                                                    <span class="review-star">
+                                                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon warning">
+                                                                            <path d="M12.105 1.87122C11.7914 1.87122 11.4853 1.96773 11.2284 2.14766C10.975 2.32515 10.7815 2.57534 10.6734 2.86504L8.61423 8.05029L8.60808 8.06632C8.60618 8.07144 8.60283 8.0759 8.59843 8.07915C8.59404 8.0824 8.5888 8.08428 8.58334 8.0846L3.04706 8.44117C1.61138 8.5344 1.12102 10.3313 2.16552 11.2001L2.16648 11.2009L6.40277 14.7343L6.40523 14.7364C6.41476 14.7442 6.42187 14.7546 6.42574 14.7664C6.42952 14.7778 6.42985 14.791 6.4271 14.8027L5.16262 19.7857C4.79476 21.227 6.35038 22.529 7.69736 21.6729L7.69831 21.6723L12.095 18.8881C12.098 18.8862 12.1015 18.8852 12.105 18.8852C12.1086 18.8852 12.1125 18.8865 12.1155 18.8884L16.8405 21.8884L16.8424 21.8896C18.0703 22.6641 19.4818 21.4869 19.1506 20.1797L17.7827 14.8018C17.78 14.7901 17.7806 14.7778 17.7843 14.7664C17.7882 14.7546 17.7953 14.7442 17.8048 14.7364L22.0436 11.2009L22.0445 11.2001C23.089 10.3313 22.5983 8.53437 21.1626 8.44115L15.6314 8.08488L15.6267 8.08461C15.6213 8.0843 15.616 8.0824 15.6116 8.07915C15.6072 8.0759 15.6039 8.07144 15.602 8.06632L15.5958 8.05029L13.5367 2.86504C13.4286 2.57534 13.2351 2.32515 12.9816 2.14766C12.7247 1.96773 12.4187 1.87122 12.105 1.87122Z" fill="black"></path>
+                                                                        </svg>
+                                                                        <span class="prisma-typography body14:medium primary"> 5.0 </span>
+                                                                    </span>
+                                                                    <span class="create-at">57분 전</span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </article>
+                                                </div>
+                                                <div class="slick-slide">
+                                                    <article class="community-review-card">
+                                                        <a href="#;" class="service-item">
+                                                            <img class="thumbnail" src="https://static.cdn.soomgo.com/upload/review/fa2e7cba-c6de-4127-8bae-b8a3256c18f7.jpeg?webp=1">
+                                                            <div class="contents-container">
+                                                                <h3>이사/입주 청소업체</h3>
+                                                                <p> 친절하고 작업과정 세세히 카톡으로 보내줍니다. 결과물도 깨끗합니다. </p>
+                                                                <div class="contents-footer">
+                                                                    <span class="review-star">
+                                                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon warning">
+                                                                            <path d="M12.105 1.87122C11.7914 1.87122 11.4853 1.96773 11.2284 2.14766C10.975 2.32515 10.7815 2.57534 10.6734 2.86504L8.61423 8.05029L8.60808 8.06632C8.60618 8.07144 8.60283 8.0759 8.59843 8.07915C8.59404 8.0824 8.5888 8.08428 8.58334 8.0846L3.04706 8.44117C1.61138 8.5344 1.12102 10.3313 2.16552 11.2001L2.16648 11.2009L6.40277 14.7343L6.40523 14.7364C6.41476 14.7442 6.42187 14.7546 6.42574 14.7664C6.42952 14.7778 6.42985 14.791 6.4271 14.8027L5.16262 19.7857C4.79476 21.227 6.35038 22.529 7.69736 21.6729L7.69831 21.6723L12.095 18.8881C12.098 18.8862 12.1015 18.8852 12.105 18.8852C12.1086 18.8852 12.1125 18.8865 12.1155 18.8884L16.8405 21.8884L16.8424 21.8896C18.0703 22.6641 19.4818 21.4869 19.1506 20.1797L17.7827 14.8018C17.78 14.7901 17.7806 14.7778 17.7843 14.7664C17.7882 14.7546 17.7953 14.7442 17.8048 14.7364L22.0436 11.2009L22.0445 11.2001C23.089 10.3313 22.5983 8.53437 21.1626 8.44115L15.6314 8.08488L15.6267 8.08461C15.6213 8.0843 15.616 8.0824 15.6116 8.07915C15.6072 8.0759 15.6039 8.07144 15.602 8.06632L15.5958 8.05029L13.5367 2.86504C13.4286 2.57534 13.2351 2.32515 12.9816 2.14766C12.7247 1.96773 12.4187 1.87122 12.105 1.87122Z" fill="black"></path>
+                                                                        </svg>
+                                                                        <span class="prisma-typography body14:medium primary"> 5.0 </span>
+                                                                    </span>
+                                                                    <span class="create-at">1시간 전</span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </article>
+                                                </div>
+                                                <div class="slick-slide">
+                                                    <article class="community-review-card">
+                                                        <a href="#;" class="service-item">
+                                                            <img class="thumbnail" src="https://static.cdn.soomgo.com/upload/review/fa2e7cba-c6de-4127-8bae-b8a3256c18f7.jpeg?webp=1">
+                                                            <div class="contents-container">
+                                                                <h3>이사/입주 청소업체</h3>
+                                                                <p> 친절하고 작업과정 세세히 카톡으로 보내줍니다. 결과물도 깨끗합니다. </p>
+                                                                <div class="contents-footer">
+                                                                    <span class="review-star">
+                                                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon warning">
+                                                                            <path d="M12.105 1.87122C11.7914 1.87122 11.4853 1.96773 11.2284 2.14766C10.975 2.32515 10.7815 2.57534 10.6734 2.86504L8.61423 8.05029L8.60808 8.06632C8.60618 8.07144 8.60283 8.0759 8.59843 8.07915C8.59404 8.0824 8.5888 8.08428 8.58334 8.0846L3.04706 8.44117C1.61138 8.5344 1.12102 10.3313 2.16552 11.2001L2.16648 11.2009L6.40277 14.7343L6.40523 14.7364C6.41476 14.7442 6.42187 14.7546 6.42574 14.7664C6.42952 14.7778 6.42985 14.791 6.4271 14.8027L5.16262 19.7857C4.79476 21.227 6.35038 22.529 7.69736 21.6729L7.69831 21.6723L12.095 18.8881C12.098 18.8862 12.1015 18.8852 12.105 18.8852C12.1086 18.8852 12.1125 18.8865 12.1155 18.8884L16.8405 21.8884L16.8424 21.8896C18.0703 22.6641 19.4818 21.4869 19.1506 20.1797L17.7827 14.8018C17.78 14.7901 17.7806 14.7778 17.7843 14.7664C17.7882 14.7546 17.7953 14.7442 17.8048 14.7364L22.0436 11.2009L22.0445 11.2001C23.089 10.3313 22.5983 8.53437 21.1626 8.44115L15.6314 8.08488L15.6267 8.08461C15.6213 8.0843 15.616 8.0824 15.6116 8.07915C15.6072 8.0759 15.6039 8.07144 15.602 8.06632L15.5958 8.05029L13.5367 2.86504C13.4286 2.57534 13.2351 2.32515 12.9816 2.14766C12.7247 1.96773 12.4187 1.87122 12.105 1.87122Z" fill="black"></path>
+                                                                        </svg>
+                                                                        <span class="prisma-typography body14:medium primary"> 5.0 </span>
+                                                                    </span>
+                                                                    <span class="create-at">1시간 전</span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="slick-arrow slick-next" style="display:block;">Next</button>
+                                    </div>
+                                </section>
+                                <section class="service-area-filter all fixed with-category-tab">
+                                    <button class="btn btn-none chip-btn filter-btn"><span>서비스</span></button>
+                                    <button class="btn btn-none chip-btn filter-btn"><span>지역</span></button>
+                                </section>
+                                <article class="community-feed-list">
+                                    <ul class="feed-list">
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/c6207c2c-7f7a-41d4-b514-67cf6b983400.jpg?h=80&amp;w=80&amp;webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/soomgo-life/02894b24-fbee-4e5d-b547-f3e9559c4063.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/cf1c64e9-d02f-4bc6-a65c-ae5667d08784.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/05b8ab01-3eb2-4380-9546-d528583cfb3b.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/20db647c-3e97-4821-ad08-cb3e8644fe42.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/52ea4264-3845-487d-8010-f9c77129fb2d.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                    <img src="https://static.cdn.soomgo.com/upload/media/52ea4264-3845-487d-8010-f9c77129fb2d.jpg?h=80&w=80&webp=1">
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="feed-item">
+                                            <a href="#;">
+                                                <p class="topic-name prisma-typography body12:regular secondary">고수에게묻다 · 자동차 튜닝</p>
+                                                <div class="feed-content">
+                                                    <div>
+                                                        <section class="item-wrapper">
+                                                            <h3 class="prisma-typography body14:medium primary">차량 LED라이트 교체</h3>
+                                                            <p class="content prisma-typography body14:regular secondary"> LF소나타 2년전 순정 라이트에서 LED라이트로 교체 비용 18만원 최근 검사로 인해 검사 맡겼더니 LED전조등 인증 만료되어 부적합 판정 (인증 스티커 부착, QR미등록 으로 인증만료 -본인 부주의) 순정으로 다시 재교체하려니 순정 라이트 고정시키는 소켓과 다마 등 ... </p>
+                                                        </section>
+                                                        <p class="sub-information prisma-typography body12:regular tertiary"> 부산 전체 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="feed-footer">
+                                                    <div class="user-interaction">
+                                                        <span class="like prisma-typography body12:regular quaternary">0</span>
+                                                        <span class="comment prisma-typography body12:regular quaternary">0</span>
+                                                    </div>
+                                                    <span class="prisma-typography body12:regular quaternary">1분 전</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                        <a id="top-btn" class="top-btn" href="#top">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cg%20fill='none'%20fill-rule='evenodd'%3e%3cg%3e%3cg%3e%3cg%3e%3cpath%20d='M0%200H24V24H0z'%20transform='translate(-323.000000,%20-680.000000)%20translate(311.000000,%20668.000000)%20translate(12.000000,%2012.000000)'/%3e%3cg%20stroke='%23B5B5B5'%20stroke-linecap='round'%20stroke-width='1.5'%3e%3cpath%20d='M7%200L7%2015'%20transform='translate(-323.000000,%20-680.000000)%20translate(311.000000,%20668.000000)%20translate(12.000000,%2012.000000)%20translate(5.000000,%204.500000)'/%3e%3cpath%20stroke-linejoin='round'%20d='M0%207L7%200%2014%207'%20transform='translate(-323.000000,%20-680.000000)%20translate(311.000000,%20668.000000)%20translate(12.000000,%2012.000000)%20translate(5.000000,%204.500000)'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e">
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <nav id="app-footer" class="footer-container">
+            <div class="footer-container-row container">
+                <div class="col-content margin-bottom">
+                    <p class="text contact">1599-5319</p>
+                    <p class="text-middle">평일 09:00 - 18:00<br>(점심시간 12:00 - 13:00 제외 · 주말/공휴일 제외)</p>
+                    <div>
+                        <a href="#;" class="download">
+                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-appstore.svg">
+                            APP STORE
+                        </a>
+                        <a href="#;" class="download">
+                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-palystore.svg">
+                            PLAY STORE
+                        </a>
+                    </div>
+                </div>
+                <div class="col-content right">
+                    <ul class="content-list">
+                        <li class="open-padding">
+                            <span class="text-middle title footer-category">
+                                숨고소개
+                            </span>
+                            <div>
+                                <a href="#;" class="text-middle footer-category">회사소개</a>
+                                <a href="#;" class="text-middle footer-category">채용안내</a>
+                                <a href="#;" class="text-middle footer-category">팀블로그</a>
+                            </div>
+                        </li>
+                        <li class="open-padding">
+                            <span class="text-middle title footer-category">
+                                고객안내
+                            </span>
+                            <div>
+                                <a href="#;" class="text-middle footer-category">이용안내</a>
+                                <a href="#;" class="text-middle footer-category">안전정책</a>
+                                <a href="#;" class="text-middle footer-category">예상금액</a>
+                                <a href="#;" class="text-middle footer-category">고수찾기</a>
+                                <a href="#;" class="text-middle footer-category">숨고보증</a>
+                                <a href="#;" class="text-middle footer-category">고수에게묻다</a>
+                            </div>
+                        </li>
+                        <li class="open-padding">
+                            <span class="text-middle title footer-category">
+                                고수안내
+                            </span>
+                            <div>
+                                <a href="#;" class="text-middle footer-category">이용안내</a>
+                                <a href="#;" class="text-middle footer-category">고수가이드</a>
+                                <a href="#;" class="text-middle footer-category">고수가입</a>
+                            </div>
+                        </li>
+                        <li class="open-padding">
+                            <span class="text-middle title footer-category">
+                                고객센터
+                            </span>
+                            <div>
+                                <a href="#;" class="text-middle footer-category">공지사항</a>
+                                <a href="#;" class="text-middle footer-category">자주묻는질문</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container-row container terms">
+                <div class="term-container">
+                    <div class="col-content term-content">
+                        <div class="col-content-list-term">
+                            <a href="#;" class="text term">이용약관</a>
+                            <a href="#;" class="text term">광고약관</a>
+                            <a href="#;" class="text term">개인정보 처리방침</a>
+                            <a href="#;" class="text term">사업자 정보확인</a>
+                        </div>
+                        <div class="col-content-list-term">
+                            <span class="text term-text">(주)브레이브모바일은 통신판매중개자로서 통신판매의 당사자가 아니며 개별 판매자가 제공하는 서비스에 대한 이행, 계약사항 등과 관련한 의무와 책임은 거래당사자에게 있습니다.</span>
+                        </div>
+                        <ul class="col-content-guide">
+                            <li class="text">상호명:(주)브레이브모바일 · 대표이사:김태우 · 개인정보책임관리자:이은선 · 주소:서울특별시 강남구 테헤란로 133, 11-12층 (역삼동, 한국타이어빌딩)</li>
+                            <li class="text">사업자등록번호:120-88-22325 · 통신판매업신고증:제 2021-서울강남-00551 호 · 직업정보제공사업 신고번호:J1200020190021</li>
+                            <li class="text">호스팅서비스 제공자:Amazon Web Services, Inc. · 고객센터:1599-5319 · 이메일:support@soomgo.com</li>
+                            <li class="text">Copyright ©Brave Mobile Inc. All Rights Reserved.</li>
+                        </ul>
+                    </div>
+                    <div class="col-content badge-list right">
+                        <a href="#;" class="footer-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon primary" data-v-24236cc4="" data-v-9aa62799=""><path d="M7.60444 8.50228V7C9.89159 7 9.8258 9.4384 9.8258 9.4384V13.6293H8.31669V9.7939C8.31669 8.47001 7.60444 8.50228 7.60444 8.50228Z" fill="black"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.56251 9.61751C4.19657 9.00207 4.89601 9.00207 4.89601 9.00207C7.01866 9.00207 7.09984 11.3691 7.09984 11.3691C7.09984 13.7102 4.89601 13.7931 4.89601 13.7931C3.95346 13.7931 3.58003 13.1216 3.58003 13.1216V13.6291H2V7.14895H3.56251V9.61751ZM3.54542 11.4235C3.54542 11.9748 3.99405 12.4212 4.54992 12.4212C5.10537 12.4212 5.55528 11.9748 5.55528 11.4235C5.55528 10.8696 5.10537 10.4237 4.54992 10.4237C3.99405 10.4237 3.54542 10.8696 3.54542 11.4235Z" fill="black"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5148 9.02458C13.5148 9.02458 10.9277 9.02458 10.9277 11.4235C10.9277 11.4235 10.8452 13.7931 13.5148 13.7931C13.5148 13.7931 16.16 13.7888 16.16 11.4235C16.16 11.4235 16.2471 9.02458 13.5148 9.02458ZM13.5156 12.4212C12.958 12.4212 12.5103 11.9748 12.5103 11.4235C12.5103 10.8696 12.958 10.4237 13.5156 10.4237C14.0702 10.4237 14.5201 10.8696 14.5201 11.4235C14.5201 11.9748 14.0702 12.4212 13.5156 12.4212Z" fill="black"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4781 9.61751V9.17579H22V13.5705C22 16.0246 19.7124 16 19.7124 16H19.1027V14.6222H19.4813C20.5892 14.6222 20.4781 13.4843 20.4781 13.4843V13.1216C19.9901 13.7493 19.1027 13.7153 19.1027 13.7153C16.9266 13.7153 16.9506 11.4061 16.9506 11.4061C16.9506 8.92902 19.1634 9.02458 19.1634 9.02458C20.0282 9.02458 20.4781 9.61751 20.4781 9.61751ZM18.5374 11.4235C18.5374 11.9748 18.9882 12.4212 19.5432 12.4212C20.0991 12.4212 20.5482 11.9748 20.5482 11.4235C20.5482 10.8696 20.0991 10.4237 19.5432 10.4237C18.9882 10.4237 18.5374 10.8696 18.5374 11.4235Z" fill="black"></path>
+                            </svg>
+                        </a>
+                        <a href="#;" class="footer-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon primary" data-v-24236cc4="" data-v-9aa62799="">
+                                <path d="M21.5821 7.18612C21.3521 6.32562 20.6744 5.64793 19.8139 5.41791C18.2542 5 12 5 12 5C12 5 5.74583 5 4.18612 5.41791C3.32564 5.64792 2.64793 6.32562 2.41792 7.18612C2 8.74582 2 12 2 12C2 12 2 15.2542 2.41792 16.8139C2.64793 17.6744 3.32564 18.3521 4.18612 18.5821C5.74583 19 12 19 12 19C12 19 18.2542 19 19.8139 18.5821C20.6744 18.3521 21.3521 17.6744 21.5821 16.8139C22 15.2542 22 12 22 12C22 12 22 8.74581 21.5821 7.18612ZM9.95455 14.9545V9.04546L15.1818 12.0001L9.95455 14.9545Z" fill="black"></path>
+                            </svg>
+                        </a>
+                        <a href="#;" class="footer-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon primary" data-v-24236cc4="" data-v-9aa62799=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12ZM8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12Z" fill="black"></path>
+                                <path d="M16.8387 7.48342C16.8387 6.94987 17.2724 6.51613 17.8069 6.51613C18.3423 6.51613 18.7742 6.94987 18.7742 7.48342C18.7742 8.01878 18.3423 8.45161 17.8069 8.45161C17.2724 8.45161 16.8387 8.01878 16.8387 7.48342Z" fill="black"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22 8C22 4.68629 19.3137 2 16 2H8C4.68629 2 2 4.68629 2 8V16C2 19.3137 4.68629 22 8 22H16C19.3137 22 22 19.3137 22 16V8ZM8 3.5H16L16.2118 3.5049C18.5988 3.61551 20.5 5.58573 20.5 8V16L20.4951 16.2118C20.3845 18.5988 18.4143 20.5 16 20.5H8L7.78816 20.4951C5.40124 20.3845 3.5 18.4143 3.5 16V8L3.5049 7.78816C3.61551 5.40124 5.58573 3.5 8 3.5Z" fill="black"></path>
+                            </svg>
+                        </a>
+                        <a href="#;" class="footer-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="prisma-icon primary" data-v-24236cc4="" data-v-9aa62799=""><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 3C7.2531 3 3 6.33543 3 10.4489C3 13.0073 4.64482 15.2623 7.14992 16.6039L6.09594 20.5119C6.00279 20.8575 6.39203 21.1325 6.69075 20.9324L11.3107 17.8376C11.7007 17.8757 12.0968 17.8978 12.5 17.8978C17.7466 17.8978 22 14.5626 22 10.4489C22 6.33543 17.7466 3 12.5 3Z" fill="black"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
