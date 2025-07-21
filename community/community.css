@@ -376,11 +376,6 @@ h2, .h2 {
     justify-content: flex-end;
 }
 
-.desktop-header .nav-list {
-    display: flex;
-    margin: 0;
-}
-
 .desktop-header .nav-item {
     position: relative;
     display: flex;
